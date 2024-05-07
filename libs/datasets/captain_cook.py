@@ -12,8 +12,8 @@ from .datasets import register_dataset
 from .data_utils import truncate_feats
 
 
-@register_dataset("error_dataset")
-class ErrorDataset(Dataset):
+@register_dataset("captaincook_dataset")
+class CaptainCookDataset(Dataset):
     def __init__(
             self,
             is_training,  # if in training mode
